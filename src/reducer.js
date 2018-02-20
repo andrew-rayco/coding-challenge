@@ -23,7 +23,8 @@ export default function (state = initialState, action) {
         case "CHANGE_AVATAR_REQUEST": {
             return {
                 ...state,
-                loading: true
+                loading: true,
+                newCurrent: action.payload
             }
         }
         case "CHANGE_AVATAR_SUCCESS": {
@@ -31,7 +32,7 @@ export default function (state = initialState, action) {
                 ...state,
                 loading: false,
                 current: action.payload,
-                menuOpen: false,
+                menuOpen: false
             }
         }
         default: {

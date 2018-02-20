@@ -11,15 +11,16 @@ export const updateAvatar = (payload) => {
     };
 };
 
-export const requestChange = () => {
+export const requestChange = (payload) => {
     return {
-        type: "CHANGE_AVATAR_REQUEST"
+        type: "CHANGE_AVATAR_REQUEST",
+        payload
     };
 };
 
 export const changeAvatar = (payload) => {
     return dispatch => {
-        dispatch(requestChange())
+        dispatch(requestChange(payload))
         setTimeout(() => {
             dispatch(updateAvatar(payload))
         }, 1000);

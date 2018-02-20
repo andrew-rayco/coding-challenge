@@ -1,3 +1,7 @@
+.avatar__main {
+  display: inline-block;
+}
+
 .avatar__main img,
 .avatar__popup img {
   height: 60px;
@@ -8,7 +12,7 @@
 }
 
 .avatar__main img:hover,
-.avatar__main img:active,
+.avatar__main img:focus,
 .active img {
   border: 1px solid rgb(155, 160, 163);
 }

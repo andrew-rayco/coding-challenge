@@ -12,8 +12,8 @@ class AvatarPopup extends Component {
         </div>
       </div>
     )
-  }
-}
+  };
+};
 
 const mapStateToProps = state => state;
 

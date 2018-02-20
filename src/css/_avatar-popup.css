@@ -1,5 +1,6 @@
 
 .avatar__popup {
+  opacity: 1;
   color: rgb(249, 249, 249);
   position: absolute;
   left: 50%;
@@ -23,71 +24,4 @@
   border-width: 0 8px 10px 8px;
   border-color: transparent transparent rgb(44, 48, 51) transparent;
   z-index: 2;
-}
-
-.avatar__single {
-  position: relative;
-  display: inline-block;
-}
-
-.avatar__single img {
-  margin-right: 4px;
-  border: 3px solid rgba(0, 0, 0, 0);
-}
-
-.avatar__single:hover img {
-  /*margin: 4px;*/
-  border: 3px solid rgb(155, 160, 163);
-}
-
-
-/* Overlay */
-.avatar__single:hover .overlay {
-  opacity: 0.2;
-}
-
-.overlay {
-  opacity: 0;
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: 7px;
-  left: 7px;
-  border-radius: 100%;
-  background: rgb(122, 161, 178);
-  z-index: 2;
-}
-
-
-
-
-.avatar__popup-choices {
-  text-align: left;
-}
-
-.current img {
-  border: 3px solid rgb(122, 161, 178);
-}
-
-.spinner {
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: 0;
-  left: 0;
-  border-radius: 100%;
-  border: 3px solid rgb(122, 161, 178);
-  border-top: 3px solid transparent;
-  transform: rotate(360deg);
-  animation: clockwise 1.3s infinite linear;
-  z-index: 5;
-}
-
-@keyframes clockwise {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
 }
