@@ -3,11 +3,12 @@ import {connect} from 'react-redux';
 import {changeAvatar} from './actions';
 
 class AvatarList extends Component {
+
   render() {
     let props = this.props
     return props.choices.map(avatar => {
       return (
-        <div key={avatar.id} onClick={props.selectAvatar} className={avatar.id === props.current.id
+        <div key={avatar.id} onClick={props.selectAvatar(avatar.id)} className={avatar.id === props.current.id
           ? 'avatar__single current'
           : 'avatar__single'}>
           <img src={avatar.src} alt={avatar.label}/>

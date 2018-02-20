@@ -9,7 +9,7 @@ class AvatarPicker extends Component {
     console.log(this.props)
     return (
       <div>
-        <div className={props.menuOpen ? 'avatar__main active' : 'avatar__main'} onClick={props.toggleMenu}><img src={props.choices[0].src} alt={props.choices[0].label}/></div>
+        <div className={props.menuOpen ? 'avatar__main active' : 'avatar__main'} onClick={props.toggleMenu}><img src={props.current.src} alt={props.current.label}/></div>
         {props.menuOpen ? <AvatarPopup /> : null}
       </div>
     );
