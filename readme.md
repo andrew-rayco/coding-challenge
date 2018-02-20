@@ -47,7 +47,7 @@ The user clicks on the avatar to open a popover which allows the user to choose 
 
 A basic react/redux app has been setup, it can be started via command line with `yarn start` and it will run on port 3000. There are some actions already provided to update the state in `src/actions` and a basic reducer with an initial state including a default avatar and the source for the other choices in `src/reducers`, since we're more interested in the UI itself than the tooling 😊.
 
-Feel free to change anything you want, and if you have any questions you can hit me up at sam.simmons@koordinates.com
+Feel free to change anything you want, and if you have any questions you can hit me up at none.of.your@business.com
 
 * Requested browser compatibility: IE11 and up, current versions of Chrome, FF, Safari
 * You may split up the main component in as many sub-components as you see fit
@@ -64,7 +64,7 @@ Feel free to change anything you want, and if you have any questions you can hit
 
 * The results have to be shared as a git repository
 * You can either create a private repository on your favourite git hosting provider (github, gitlab, bitbucket) and then give access to
-  * sam.simmons@koordinates.com
+  * none.of.your@business.com
 * Or create a public repository and send the link to that email addresses
 * Or send the whole repository, zipped (including the `.git` directory) to that email address
 
