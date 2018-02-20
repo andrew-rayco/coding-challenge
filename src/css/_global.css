@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 2em;
+  font-family: sans-serif;
+  /*box-sizing: border-box;*/
+}
+
+h3 {
+  font-size: 16px;
+  margin: 14px 0;
+  font-weight: 600;
+}
+
+.app {
+  text-align: center;
+}

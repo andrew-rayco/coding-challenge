@@ -1,0 +1,14 @@
+.avatar__main img,
+.avatar__popup img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin-bottom: .5em;
+}
+
+.avatar__main img:hover,
+.avatar__main img:active,
+.active img {
+  border: 1px solid rgb(155, 160, 163);
+}

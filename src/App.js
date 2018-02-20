@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AvatarPicker from './AvatarPicker'
+import AvatarPicker from './AvatarPicker';
 
 class App extends Component {
   render() {
